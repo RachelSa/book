@@ -1,0 +1,11 @@
+#wrapper {
+  padding: 2%;
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(3, 1fr);
+  min-height: 100%;
+}
+
+.column {
+  background-color: lime;
+}
