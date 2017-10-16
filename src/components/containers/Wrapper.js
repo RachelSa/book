@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import '../../styles/Wrapper.css';
-import BookList from './BookList';
-import Stats from './Stats'
+import LeftColumn from './LeftColumn'
+import CenterColumn from './CenterColumn'
+import RightColumn from './RightColumn'
 
 class Wrapper extends Component {
   render(){
     return (
       <div id="wrapper">
-        <BookList/>
-        <Stats/>
+        <LeftColumn/>
+        <CenterColumn/>
+        <RightColumn/>
       </div>
     )
   }
