@@ -5,10 +5,16 @@ import CenterColumn from './CenterColumn'
 import RightColumn from './RightColumn'
 
 class Wrapper extends Component {
+
+  handleSubmit = (book) => {
+    console.log(book)
+
+  }
+
   render(){
     return (
       <div id="wrapper">
-        <LeftColumn/>
+        <LeftColumn handleSubmit={this.handleSubmit}/>
         <CenterColumn/>
         <RightColumn/>
       </div>
